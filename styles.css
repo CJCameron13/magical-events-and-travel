@@ -1,22 +1,69 @@
+:root {
+    --primary-text: #878787;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+    padding-top: 50px;
+}
+
+img {
+    display: block;
+}
+
 #top-section {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    padding: 0 10%;
+}
+
+nav {
+    color: var(--primary-text);
 }
 
 ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    gap: 2.5rem;
 }
 
 #top-logo {
     width: 156px;
     height: 157px;
     border-radius: 21px;
+    margin-right: 50px;
+}
+
+#top-contact {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#email-group {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#phone-group {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
