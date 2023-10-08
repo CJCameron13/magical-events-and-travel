@@ -1,5 +1,8 @@
 :root {
     --primary-text: #878787;
+    --transparent-black: #00000080;
+    --white: #ffffff;
+    --transparent-white: #F5F5F5E6;
 }
 
 * {
@@ -10,7 +13,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 img {
@@ -21,8 +24,10 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     width: 100vw;
-    padding: 0 10%;
+    padding: 0 5%;
+    margin-bottom: 2%;
 }
 
 nav {
@@ -36,6 +41,10 @@ ul {
     gap: 2.5rem;
 }
 
+li:hover {
+    cursor: pointer;
+}
+
 #top-logo {
     width: 156px;
     height: 157px;
@@ -44,7 +53,6 @@ ul {
 }
 
 #top-contact {
-    margin: auto;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -66,4 +74,89 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 5px;
+}
+
+/* Carousel styling */
+
+.inactive {
+    display: none;
+}
+
+#carousel-container {
+    width: 100vw;
+    height: 60vh;
+}
+
+.carousel-image {
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    height: 100%;
+}
+
+#albania {
+    background-image: url('/images/albania.jpg');
+}
+
+#algeria {
+    background-image: url('/images/algeria.jpg');
+}
+
+#antigua-barbuda {
+    background-image: url('/images/antigua-barbuda.jpg');
+}
+
+#argentina {
+    background-image: url('/images/argentina.jpg');
+}
+
+#aruba {
+    background-image: url('/images/aruba.jpg');
+}
+
+#bosnia-herzegovina {
+    background-image: url('/images/bosnia-and-herzegovina.jpg');
+}
+
+.country-name {
+    position: absolute;
+    color: var(--transparent-white);
+    font-size: 5rem;
+    font-weight: 600;
+    text-shadow: 5px 5px 5px var(--transparent-black);
+    left: 5%;
+    margin-top: 5%;
+    max-width: 35%;
+}
+
+.carousel-notes {
+    background-color: var(--transparent-black);
+    color: var(--white);
+    width: 300px;
+    height: 100%;
+    padding: 3% 2%;
+    margin-left: 70%;
+}
+
+.carousel-arrows {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 12%;
+}
+
+.arrow-icon:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.learn-more {
+    font-weight: 700;
+    margin-top: 20%;
+}
+
+.learn-more:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
