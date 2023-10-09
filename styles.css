@@ -3,6 +3,7 @@
     --transparent-black: #00000080;
     --white: #ffffff;
     --transparent-white: #F5F5F5E6;
+    --sky-blue: #4DA5F6;
 }
 
 * {
@@ -94,29 +95,461 @@ li:hover {
     height: 100%;
 }
 
+/* Destination backgrounds */
+
 #albania {
-    background-image: url('/images/albania.jpg');
+    background-image: url('images/albania.jpg');
 }
 
 #algeria {
-    background-image: url('/images/algeria.jpg');
+    background-image: url('images/algeria.jpg');
 }
 
 #antigua-barbuda {
-    background-image: url('/images/antigua-barbuda.jpg');
+    background-image: url('images/antigua-barbuda.jpg');
 }
 
 #argentina {
-    background-image: url('/images/argentina.jpg');
+    background-image: url('images/argentina.jpg');
 }
 
 #aruba {
-    background-image: url('/images/aruba.jpg');
+    background-image: url('images/aruba.jpg');
+}
+
+#australia {
+    background-image: url('images/australia.jpg');
+}
+
+#austria {
+    background-image: url('images/austria.webp');
+}
+
+#bahamas {
+    background-image: url('images/bahamas.jpg');
+}
+
+#bahrain {
+    background-image: url('images/bahrain.jpg');
+}
+
+#bangladesh {
+    background-image: url('images/bangladesh.jpg');
+}
+
+#barbados {
+    background-image: url('images/barbados.jpg');
+}
+
+#belgium {
+    background-image: url('images/belgium.jpg');
+}
+
+#bhutan {
+    background-image: url('images/bhutan.jpg');
 }
 
 #bosnia-herzegovina {
-    background-image: url('/images/bosnia-and-herzegovina.jpg');
+    background-image: url('images/bosnia-and-herzegovina.jpg');
 }
+
+#brazil {
+    background-image: url('images/brazil.jpg');
+}
+
+#bulgaria {
+    background-image: url('images/bulgaria.jpg');
+}
+
+#cambodia {
+    background-image: url('images/cambodia.jpg');
+}
+
+#canada {
+    background-image: url('images/canada.jpg');
+}
+
+#cape-verde {
+    background-image: url('images/cape-verde.jpg');
+}
+
+#cayman-islands {
+    background-image: url('images/cayman-islands.jpg');
+}
+
+#chile {
+    background-image: url();
+}
+
+#china {
+    background-image: url();
+}
+
+#colombia {
+    background-image: url();
+}
+
+#cuba {
+    background-image: url();
+}
+
+#cyprus {
+    background-image: url();
+}
+
+#czech-republic {
+    background-image: url();
+}
+
+#denmark {
+    background-image: url();
+}
+
+#dominican-republic {
+    background-image: url();
+}
+
+#ecuador {
+    background-image: url();
+}
+
+#egypt {
+    background-image: url();
+}
+
+#estonia {
+    background-image: url();
+}
+
+#ethiopia {
+    background-image: url();
+}
+
+#fiji {
+    background-image: url();
+}
+
+#finland {
+    background-image: url();
+}
+
+#france {
+    background-image: url();
+}
+
+#gambia {
+    background-image: url();
+}
+
+#georgia {
+    background-image: url();
+}
+
+#germany {
+    background-image: url();
+}
+
+#greece {
+    background-image: url();
+}
+
+#guadeloupe {
+    background-image: url();
+}
+
+#hong-kong {
+    background-image: url();
+}
+
+#hungary {
+    background-image: url();
+}
+
+#iceland {
+    background-image: url();
+}
+
+#india {
+    background-image: url();
+}
+
+#indonesia {
+    background-image: url();
+}
+
+#iraq {
+    background-image: url();
+}
+
+#ireland {
+    background-image: url();
+}
+
+#israel {
+    background-image: url();
+}
+
+#italy {
+    background-image: url();
+}
+
+#jamaica {
+    background-image: url();
+}
+
+#japan {
+    background-image: url();
+}
+
+#kenya {
+    background-image: url();
+}
+
+#kosovo {
+    background-image: url();
+}
+
+#kuwait {
+    background-image: url();
+}
+
+#laos {
+    background-image: url();
+}
+
+#latvia {
+    background-image: url();
+}
+
+#lebanon {
+    background-image: url();
+}
+
+#lithuania {
+    background-image: url();
+}
+
+#luxembourg {
+    background-image: url();
+}
+
+#macao {
+    background-image: url();
+}
+
+#macedonia {
+    background-image: url();
+}
+
+#malaysia {
+    background-image: url();
+}
+
+#maldives {
+    background-image: url();
+}
+
+#malta {
+    background-image: url();
+}
+
+#martinique {
+    background-image: url();
+}
+
+#mauritius {
+    background-image: url();
+}
+
+#mexico {
+    background-image: url();
+}
+
+#moldova {
+    background-image: url();
+}
+
+#morocco {
+    background-image: url();
+}
+
+#myanmar {
+    background-image: url();
+}
+
+#namibia {
+    background-image: url();
+}
+
+#nepal {
+    background-image: url();
+}
+
+#netherlands {
+    background-image: url();
+}
+
+#new-zealand {
+    background-image: url();
+}
+
+#norway {
+    background-image: url();
+}
+
+#oman {
+    background-image: url();
+}
+
+#pakistan {
+    background-image: url();
+}
+
+#panama {
+    background-image: url();
+}
+
+#peru {
+    background-image: url();
+}
+
+#philippines {
+    background-image: url();
+}
+
+#poland {
+    background-image: url();
+}
+
+#portugal {
+    background-image: url();
+}
+
+#puerto-rico {
+    background-image: url();
+}
+
+#romania {
+    background-image: url();
+}
+
+#reunion {
+    background-image: url();
+}
+
+#saint-lucia {
+    background-image: url();
+}
+
+#saint-martin {
+    background-image: url();
+}
+
+#samoa {
+    background-image: url();
+}
+
+#suadi-arabia {
+    background-image: url();
+}
+
+#senegal {
+    background-image: url();
+}
+
+#serbia {
+    background-image: url();
+}
+
+#seychelles {
+    background-image: url();
+}
+
+#singapore {
+    background-image: url();
+}
+
+#slovakia {
+    background-image: url();
+}
+
+#slovenia {
+    background-image: url();
+}
+
+#south-africa {
+    background-image: url();
+}
+
+#south-korea {
+    background-image: url();
+}
+
+#spain {
+    background-image: url();
+}
+
+#sri-lanka {
+    background-image: url();
+}
+
+#sweden {
+    background-image: url();
+}
+
+#switzerland {
+    background-image: url();
+}
+
+#taiwan {
+    background-image: url();
+}
+
+#tanzania {
+    background-image: url();
+}
+
+#thailand {
+    background-image: url();
+}
+
+#tonga {
+    background-image: url();
+}
+
+#tunisia {
+    background-image: url();
+}
+
+#turkey {
+    background-image: url();
+}
+
+#turks-and-caicos {
+    background-image: url();
+}
+
+#us-virgin-islands {
+    background-image: url();
+}
+
+#united-arab-emirates {
+    background-image: url();
+}
+
+#united-kingdom {
+    background-image: url();
+}
+
+#vanuatu {
+    background-image: url();
+}
+
+#vietnam {
+    background-image: url();
+}
+
+/* Destination backgrounds end */
 
 .country-name {
     position: absolute;
@@ -159,4 +592,17 @@ li:hover {
 .learn-more:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+#blue-bar {
+    width: 100vw;
+    height: 5vh;
+    background-color: var(--sky-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blue-bar-text {
+    color: var(--white);
 }
