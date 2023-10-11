@@ -119,12 +119,34 @@ const arrow = document.querySelectorAll('.arrow-icon')
 
 const destinations = [albania, algeria, antiguaAndBarbuda, argentina, aruba, australia, austria, bahamas, bahrain, bangladesh, barbados, belgium, bhutan, bosniaAndHerzegovina, brazil, bulgaria, cambodia, canada, capeVerde, caymanIslands]
 
+let randomDestinations = []
+
+function selectFive() {
+    randomDestinations.push(destinations[Math.floor(Math.random()*destinations.length)])
+    randomDestinations.push(destinations[Math.floor(Math.random()*destinations.length)])
+    randomDestinations.push(destinations[Math.floor(Math.random()*destinations.length)])
+    randomDestinations.push(destinations[Math.floor(Math.random()*destinations.length)])
+    randomDestinations.push(destinations[Math.floor(Math.random()*destinations.length)])
+    console.log(randomDestinations)
+}
+
+selectFive()
+
+function showRandom() {
+    randomDestinations.forEach((destination) => {
+        destination.classList.add('inactive')
+    })
+    randomDestinations[Math.floor(Math.random()*randomDestinations.length)].classList.remove('inactive')
+}
+
+showRandom()
+
 arrow.forEach((button) => {
     button.addEventListener('click', () => {
         console.log('heard')
-        destinations.forEach((destination) => {
+        randomDestinations.forEach((destination) => {
             destination.classList.add('inactive')
         })
-        destinations[Math.floor(Math.random()*destinations.length)].classList.remove('inactive')
+        randomDestinations[Math.floor(Math.random()*randomDestinations.length)].classList.remove('inactive')
     })
 })
