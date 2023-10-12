@@ -607,6 +607,12 @@ li:hover {
     color: var(--white);
 }
 
+#features-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+}
+
 .feature-column {
     display: flex;
     flex-direction: column;
