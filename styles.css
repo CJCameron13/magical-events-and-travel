@@ -606,3 +606,26 @@ li:hover {
 #blue-bar-text {
     color: var(--white);
 }
+
+.feature-column {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.feature-header {
+    color: var(--primary-text);
+    font-weight: 200;
+    font-size: 2.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-text);
+}
