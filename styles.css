@@ -4,6 +4,7 @@
     --white: #ffffff;
     --transparent-white: #F5F5F5E6;
     --sky-blue: #4DA5F6;
+    --light-grey: #d1d1cf;
 }
 
 * {
@@ -57,6 +58,7 @@ li:hover {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    align-items: flex-end;
 }
 
 #socials {
@@ -75,6 +77,20 @@ li:hover {
     display: flex;
     flex-direction: row;
     gap: 5px;
+    color: var(--primary-text);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-text);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul a:hover {
+    text-decoration: none;
 }
 
 /* Carousel styling */
@@ -611,12 +627,15 @@ li:hover {
     display: flex;
     flex-direction: row;
     margin-top: 10vh;
+    justify-content: space-around;
+    margin-bottom: 10vh;
 }
 
 .feature-column {
     display: flex;
     flex-direction: column;
     gap: 5vh;
+    align-items: center;
 }
 
 .header-container {
@@ -631,7 +650,49 @@ li:hover {
     font-size: 2.4rem;
 }
 
-a {
-    text-decoration: none;
+.feature-title {
+    width: 315px;
+    text-align: center;
     color: var(--primary-text);
+}
+
+button {
+    background-color: var(--sky-blue);
+    color: var(--white);
+    height: 30px;
+    width: 150px;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+#travel-news {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    width: 500px;
+}
+
+#news-header {
+    color: var(--primary-text);
+    font-size: 2rem;
+}
+
+footer {
+    width: 100vw;
+    height: 25vh;
+    background-color: var(--light-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: var(--primary-text);
+}
+
+.footer-link {
+    color: var(--transparent-black);
+}
+
+.small-text {
+    font-size: 0.8rem;
 }
