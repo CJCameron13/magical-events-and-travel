@@ -93,6 +93,51 @@ ul a:hover {
     text-decoration: none;
 }
 
+/* Start About styling */
+
+#main-container {
+    color: var(--primary-text);
+    width: 70vw;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+}
+
+#left {
+    width: 35vw;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 5vh;
+}
+
+.about-statement {
+    margin-bottom: 2.5vh;
+}
+
+h2 {
+    margin-bottom: 2.5vh;
+}
+
+#bbb-container {
+    margin-top: 2vh;
+}
+
+#bbb {
+    height: 100px;
+}
+
+#logo {
+    width: 450px;
+    height: 450px;
+    border-radius: 25px;
+}
+
 /* footer styling */
 
 footer {
