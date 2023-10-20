@@ -45,6 +45,157 @@
         </div>
     </div>
 
+    <!-- Main content section -->
+
+    <div id="main-content-container">
+        <h1>ADVANCED TRAVEL SEARCH</h1>
+        <div id="search-tabs">
+            <p class="tab selected" id="cruise-tab">Cruise Search</p>
+            <p class="tab" id="air-tab">Air Search</p>
+            <p class="tab" id="hotel-tab">Hotel Search</p>
+        </div>
+        <div id="searchbox">
+            <div class="cruise-search">
+                <form action="">
+                    <div id="search-container">
+                        <select name="" id="destination" class="cruise-dropdown">
+                            <option class="placeholder" value="" disabled selected hidden>Destination/River</option>
+                        </select>
+                        <select name="" id="sailing-dates" class="cruise-dropdown">
+                            <option class="placeholder" value="" disabled selected hidden>Sailing Dates</option>
+                        </select>
+                        <select name="" id="length" class="cruise-dropdown">
+                            <option class="placeholder" value="" disabled selected hidden>Length</option>
+                        </select>
+                        <select name="" id="cruise-line" class="cruise-dropdown">
+                            <option class="placeholder" value="" disabled selected hidden>Cruise Line</option>
+                        </select>
+                        <select name="" id="ships" class="cruise-dropdown">
+                            <option class="placeholder" value="" disabled selected hidden>Ships</option>
+                        </select>
+                        <select name="" id="departure-port" class="cruise-dropdown">
+                            <option class="placeholder" value="" disabled selected hidden>Departure Port</option>
+                        </select>
+                    </div>
+                    <div id="button-row">
+                        <button type="reset" class="cruise-button">RESET ALL</button>
+                        <button class="cruise-button">SEARCH CRUISES</button>
+                    </div>
+                </form>
+                <p id="sailings-found"><span>--</span> Sailings Found</p>
+            </div>
+            <div class="air-search inactive">
+                <div id="trip-type-select">
+                    <p class="trip-type">Round-trip</p>
+                    <p class="trip-type">One-way</p>
+                    <p class="trip-type">Multi-city</p>
+                </div>
+                <div id="airport-selector">
+                    <div id="from-container">
+                        <label for="from">From</label>
+                        <input type="text" name="from">
+                    </div>
+                    <div id="to-container">
+                        <label for="to">To</label>
+                        <input type="text" name="to">
+                    </div>
+                </div>
+                <div id="selection-group-one">
+                    <input type="date" name="" id="">
+                    <select name="" id="departure-time">
+                        <option value="anytime">Anytime</option>
+                        <option value="morning">Morning</option>
+                        <option value="afternoon">Afternoon</option>
+                        <option value="evening">Evening</option>
+                    </select>
+                    <input type="date">
+                    <select name="" id="arrival-time">
+                        <option value="anytime">Anytime</option>
+                        <option value="morning">Morning</option>
+                        <option value="afternoon">Afternoon</option>
+                        <option value="evening">Evening</option>
+                    </select>
+                    <select name="" id="adults">
+                        <option value="0">0 Adults</option>
+                        <option value="1">1 Adult</option>
+                        <option value="2">2 Adults</option>
+                        <option value="3">3 Adults</option>
+                        <option value="4">4 Adults</option>
+                        <option value="5">5 Adults</option>
+                        <option value="6">6 Adults</option>
+                        <option value="7">7 Adults</option>
+                        <option value="8">8 Adults</option>
+                    </select>
+                    <select name="" id="children">
+                        <option value="0">0 Children</option>
+                        <option value="1">1 Child</option>
+                        <option value="2">2 Children</option>
+                        <option value="3">3 Children</option>
+                        <option value="4">4 Children</option>
+                        <option value="5">5 Children</option>
+                        <option value="6">6 Children</option>
+                        <option value="7">7 Children</option>
+                        <option value="8">8 Children</option>
+                    </select>
+                    <select name="" id="lap-infants">
+                        <option value="0">0 Lap Infants</option>
+                        <option value="1">1 Lap Infant</option>
+                        <option value="2">2 Lap Infants</option>
+                        <option value="3">3 Lap Infants</option>
+                        <option value="4">4 Lap Infants</option>
+                    </select>
+                    <select name="" id="seat-infants">
+                        <option value="0">0 Seat Infants</option>
+                        <option value="1">1 Seat Infant</option>
+                        <option value="2">2 Seat Infants</option>
+                        <option value="3">3 Seat Infants</option>
+                        <option value="4">4 Seat Infants</option>
+                    </select>
+                </div>
+                <div id="selection-group-two">
+                    <select name="" id="cabin-class">
+                        <option value="">All Class/Cabin</option>
+                        <option value="">Economy/Coach</option>
+                        <option value="">Premium Economy</option>
+                        <option value="">Business Class</option>
+                        <option value="">First Class</option>
+                    </select>
+                    <div id="checkbox-group">
+                        <div class="checkbox-set">
+                            <input type="checkbox" name="flexible-dates">
+                            <label for="flexible-dates">Flexible Dates</label>
+                        </div>
+                        <div class="checkbox-set">
+                            <input type="checkbox" name="direct-flights">
+                            <label for="direct-flights">Direct Flights</label>
+                        </div>
+                        <div class="checkbox-set">
+                            <input type="checkbox" name="flexible-fares">
+                            <label for="flexible-fares">Flexible Fares</label>
+                        </div>
+                        <div class="checkbox-set">
+                            <input type="checkbox" name="nearby-airport">
+                            <label for="nearby-airport">Nearby Airport Search</label>
+                        </div>
+                    </div>
+                </div>
+                <p>Preferred Airlines</p>
+                    <div id="preferred-group">
+                        <div class="preferred-set">
+                            <label for="first-pref">1.</label>
+                            <input type="text" name="first-pref">
+                        </div>
+                        <div class="preferred-set">
+                            <label for="second-pref">2.</label>
+                            <input type="text" name="second-pref">
+                        </div>
+                    </div>
+                    <button id="flight-search-button">Flight Search</button>
+            </div>
+        </div>
+    </div>
+    <script src="book-now.js"></script>
+
     <!-- footer -->
 
     <footer>
