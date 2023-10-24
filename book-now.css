@@ -218,6 +218,11 @@ h1 {
     color: var(--sky-blue);
 }
 
+.trip-type.active-type {
+    color: var(--sky-blue);
+    font-weight: 600;
+}
+
 #airport-selector {
     display: flex;
     flex-direction: row;
@@ -228,7 +233,7 @@ h1 {
 
 .air-search input {
     height: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
     border-style: solid;
     border-width: 1px;
 }
@@ -241,7 +246,7 @@ h1 {
 
 .air-search select {
     height: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: var(--white);
 }
 
@@ -293,11 +298,36 @@ h1 {
 
 #preferred-group {
     display: flex;
+    gap: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
 }
 
 .preferred-set {
     display: flex;
     flex-direction: column;
+}
+
+#flight-search-button {
+    background-color: var(--sky-blue);
+    color: var(--white);
+    height: 30px;
+    width: 150px;
+    border-width: 0px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#flight-search-button:hover {
+    cursor: pointer;
+}
+
+#flight-search-button:focus {
+    background-color: var(--white);
+    color: var(--sky-blue);
+    border-color: var(--sky-blue);
+    border-width: 2px;
+    border-style: solid;
 }
 
 /* footer styling */
