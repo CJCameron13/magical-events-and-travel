@@ -18,3 +18,29 @@ airTab.addEventListener('click', () => {
     cruiseTab.classList.remove('selected')
     airTab.classList.add('selected')
 })
+
+/* Air search functions */
+
+roundTrip.addEventListener('click', () => {
+    roundTrip.classList.add('active-type')
+    oneWay.classList.remove('active-type')
+    multiCity.classList.remove('active-type')
+    returnTrip.forEach((box) => {
+        box.classList.remove('inactive')
+    })
+})
+
+oneWay.addEventListener('click', () => {
+    roundTrip.classList.remove('active-type')
+    multiCity.classList.remove('active-type')
+    oneWay.classList.add('active-type')
+    returnTrip.forEach((box) => {
+        box.classList.add('inactive')
+    })
+})
+
+multiCity.addEventListener('click', () => {
+    roundTrip.classList.remove('active-type')
+    oneWay.classList.remove('active-type')
+    multiCity.classList.add('active-type')
+})
