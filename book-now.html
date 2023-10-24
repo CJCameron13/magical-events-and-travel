@@ -86,9 +86,9 @@
             </div>
             <div class="air-search inactive">
                 <div id="trip-type-select">
-                    <p class="trip-type">Round-trip</p>
-                    <p class="trip-type">One-way</p>
-                    <p class="trip-type">Multi-city</p>
+                    <p class="trip-type active-type" id="round-trip">Round-trip</p>
+                    <p class="trip-type" id="one-way">One-way</p>
+                    <p class="trip-type" id="multi-city">Multi-city</p>
                 </div>
                 <div id="airport-selector">
                     <div id="from-container">
@@ -108,8 +108,8 @@
                         <option value="afternoon">Afternoon</option>
                         <option value="evening">Evening</option>
                     </select>
-                    <input type="date">
-                    <select name="" id="arrival-time">
+                    <input type="date" class="return-trip">
+                    <select name="" id="return-time" class="return-trip">
                         <option value="anytime">Anytime</option>
                         <option value="morning">Morning</option>
                         <option value="afternoon">Afternoon</option>
