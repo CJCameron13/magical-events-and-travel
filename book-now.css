@@ -277,11 +277,19 @@ h1 {
     margin-bottom: 3vh;
 }
 
+#selection-group-one.inactive {
+    display: none;
+}
+
 #selection-group-two {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5vw;
+}
+
+#selection-group-two.inactive {
+    display: none;
 }
 
 #checkbox-group {
